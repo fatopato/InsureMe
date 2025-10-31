@@ -1,0 +1,110 @@
+.login-page {
+  padding-bottom: 80px;
+}
+
+.login-hero {
+  background: linear-gradient(135deg, #0052a5 0%, #0066cc 100%);
+  padding: 60px 0;
+  color: #fff;
+}
+
+.login-icon {
+  font-size: 64px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.login-hero h1 {
+  color: #fff !important;
+  font-size: 36px !important;
+  margin-bottom: 0 !important;
+}
+
+.login-description {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 18px;
+}
+
+.login-section {
+  padding: 60px 0;
+  background: #f5f7fa;
+}
+
+.login-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+}
+
+.login-steps {
+  margin-bottom: 48px;
+}
+
+.login-steps .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+.login-steps .ant-steps-item-process .ant-steps-item-icon {
+  background-color: #0066cc;
+  border-color: #0066cc;
+}
+
+.login-form {
+  padding: 0 8px;
+}
+
+.success-section {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.success-icon {
+  font-size: 72px;
+  color: #52c41a;
+  margin-bottom: 24px;
+}
+
+.success-section h3 {
+  color: #52c41a !important;
+  margin-bottom: 16px !important;
+}
+
+@media (max-width: 992px) {
+  .login-hero h1 {
+    font-size: 28px !important;
+  }
+
+  .login-description {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .login-hero {
+    padding: 40px 0;
+  }
+
+  .login-icon {
+    font-size: 48px;
+  }
+
+  .login-hero h1 {
+    font-size: 24px !important;
+  }
+
+  .login-description {
+    font-size: 14px !important;
+  }
+
+  .login-section {
+    padding: 40px 0;
+  }
+
+  .login-steps {
+    margin-bottom: 32px;
+  }
+
+  .success-icon {
+    font-size: 56px;
+  }
+}
+

@@ -1,46 +1,123 @@
-# Getting Started with Create React App
+# InsureMe - Insurance Comparison Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive insurance comparison website built with React, TypeScript, and Ant Design, inspired by Sigortam.net.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Multi-Product Insurance** - Traffic, Kasko, Health, and Home Insurance
+- **Quote Comparison** - Compare quotes from 30+ insurance companies
+- **Responsive Design** - Mobile-first approach with Ant Design
+- **Modern UI/UX** - Beautiful gradient designs and smooth animations
+- **Fast & Lightweight** - Optimized for performance
+- **TypeScript** - Type-safe codebase
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React 19** - UI Library
+- **TypeScript** - Type Safety
+- **Ant Design 5** - UI Component Library
+- **React Router** - Client-side routing
+- **Ant Design Icons** - Icon library
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📦 Installation
 
-### `npm test`
+```bash
+# Install dependencies
+npm install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Start development server
+npm start
 
-### `npm run build`
+# Build for production
+npm run build
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Run tests
+npm test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+insure-me/
+├── src/
+│   ├── components/
+│   │   └── Layout/
+│   │       ├── Header.tsx
+│   │       ├── Footer.tsx
+│   │       └── Layout.tsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   │   ├── products/
+│   │   │   ├── TrafficInsurance.tsx
+│   │   │   ├── Kasko.tsx
+│   │   │   ├── HealthInsurance.tsx
+│   │   │   └── HomeInsurance.tsx
+│   │   ├── QuoteComparison.tsx
+│   │   ├── FAQ.tsx
+│   │   ├── About.tsx
+│   │   └── Contact.tsx
+│   ├── App.tsx
+│   └── index.tsx
+└── package.json
+```
 
-### `npm run eject`
+## 🎨 Pages
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Home** - Landing page with hero section, product showcase, and key features
+- **Traffic Insurance** - Traffic insurance product page with quote form
+- **Kasko** - Comprehensive car insurance
+- **Health Insurance** - Health insurance products
+- **Home Insurance** - Property and home insurance
+- **Quote Comparison** - Compare insurance quotes side-by-side
+- **FAQ** - Frequently asked questions
+- **About** - Company information and history
+- **Contact** - Contact form and information
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Configuration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The app uses Ant Design's theme configuration in `App.tsx`. You can customize colors, fonts, and other design tokens there.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📱 Responsive Breakpoints
 
-## Learn More
+- **Mobile**: < 576px
+- **Tablet**: 576px - 992px
+- **Desktop**: > 992px
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Key Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Header
+- Responsive navigation menu
+- Mobile drawer menu
+- Quick access to quotes
+- Contact information
+
+### Footer
+- Product links
+- Company information
+- Social media links
+- Legal pages
+
+### Home Page
+- Hero section with CTA
+- Product showcase
+- Key features
+- Statistics
+- Testimonials
+- How it works
+
+## 🚧 Future Enhancements
+
+- Backend integration for real quotes
+- User authentication
+- Payment processing
+- Policy management dashboard
+- Real-time chat support
+- Multi-language support
+
+## 📝 License
+
+This project is created for educational purposes.
+
+## 👥 Authors
+
+Created with ❤️ using React and Ant Design

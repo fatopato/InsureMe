@@ -1,0 +1,368 @@
+.dashboard-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.dashboard-sidebar {
+  position: relative;
+  left: auto;
+  top: auto;
+  height: auto;
+  overflow: visible;
+}
+
+.sidebar-content {
+  padding: 24px;
+}
+
+.user-section {
+  text-align: center;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 24px;
+}
+
+.welcome-text {
+  margin: 0 0 8px 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.last-login {
+  font-size: 12px;
+  color: #8c8c8c;
+}
+
+.sidebar-nav .ant-list-item {
+  padding: 12px 16px !important;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sidebar-nav .ant-list-item:hover {
+  background: #f0f8ff;
+}
+
+.nav-item-selected {
+  background: #e6f4ff !important;
+  border-left: 4px solid #0066cc;
+}
+
+.nav-item-selected .ant-typography {
+  color: #0066cc !important;
+  font-weight: 600;
+}
+
+.nav-item-danger .ant-typography {
+  color: #ff4d4f !important;
+}
+
+.nav-badge {
+  font-size: 10px;
+  padding: 0 6px;
+  line-height: 18px;
+}
+
+.nav-arrow {
+  color: #0066cc;
+  font-size: 14px;
+}
+
+.dashboard-content {
+  margin-left: 0;
+  padding: 24px;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  margin: 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-action {
+  padding: 0;
+  height: auto;
+  font-weight: 600;
+  color: #0066cc;
+}
+
+/* Policy Cards */
+.policy-card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  transition: all 0.3s;
+}
+
+.policy-card:hover {
+  border-color: #0066cc;
+  box-shadow: 0 2px 8px rgba(0, 102, 204, 0.1);
+}
+
+.policy-card .policy-icon {
+  font-size: 32px;
+  color: #0066cc;
+  margin-right: 16px;
+}
+
+.policy-card.expired .policy-icon {
+  color: #ff4d4f;
+}
+
+.policy-info {
+  flex: 1;
+}
+
+.policy-title {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.policy-subtitle {
+  font-size: 12px;
+}
+
+.policy-arrow {
+  color: #bfbfbf;
+  font-size: 16px;
+}
+
+.policy-card:hover .policy-arrow {
+  color: #0066cc;
+}
+
+/* Campaign Items */
+.campaign-item {
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.campaign-item:hover {
+  border-color: #0066cc;
+  background: #f0f8ff;
+}
+
+.campaign-content {
+  flex: 1;
+}
+
+.campaign-title {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.campaign-date {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.campaign-tag {
+  margin-right: 0;
+}
+
+/* Help Section */
+.help-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  background: #f0f8ff;
+  border-radius: 8px;
+}
+
+.help-icon {
+  font-size: 48px;
+  color: #0066cc;
+}
+
+.help-text {
+  margin: 0 !important;
+  font-size: 14px;
+  color: #595959;
+}
+
+/* Quote Card */
+.quote-card {
+  background: linear-gradient(135deg, #0052a5 0%, #0066cc 100%);
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.quote-card .ant-card-body {
+  padding: 24px;
+}
+
+.quote-title {
+  color: #fff !important;
+  margin-bottom: 16px !important;
+  font-size: 18px;
+}
+
+.quote-button {
+  background: #fff !important;
+  color: #0066cc !important;
+  border: none !important;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.quote-button:hover {
+  background: #f0f0f0 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Referral Card */
+.referral-card {
+  margin-bottom: 24px;
+  background: linear-gradient(135deg, #f0f8ff 0%, #e6f4ff 100%);
+}
+
+.referral-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px !important;
+  color: #0066cc;
+}
+
+.referral-text {
+  margin-bottom: 12px !important;
+  font-size: 14px;
+  color: #595959;
+  line-height: 1.6;
+}
+
+.referral-button {
+  padding: 0;
+  font-weight: 600;
+  color: #0066cc;
+}
+
+/* Notifications */
+.notification-item {
+  border: 1px solid #fff7e6;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  background: #fffbe6;
+}
+
+.notification-item:hover {
+  border-color: #ffd591;
+  background: #fff7e6;
+}
+
+.notification-tag {
+  margin-bottom: 8px;
+}
+
+.notification-text {
+  margin-bottom: 12px !important;
+  font-size: 13px;
+  color: #595959;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .dashboard-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .dashboard-sidebar {
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100% !important;
+  }
+
+  .dashboard-content {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  .user-section {
+    padding: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-action {
+    margin-top: 8px;
+    align-self: flex-end;
+  }
+
+  .policy-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .policy-icon {
+    margin-bottom: 12px;
+  }
+
+  .campaign-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .campaign-tag {
+    align-self: flex-end;
+  }
+
+  .help-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .help-icon {
+    align-self: center;
+  }
+
+  .quote-card .ant-card-body {
+    padding: 20px;
+  }
+
+  .quote-title {
+    font-size: 16px;
+  }
+}
+

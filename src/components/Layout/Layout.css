@@ -1,0 +1,32 @@
+.site-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+  background: #f0f2f5;
+  min-height: calc(100vh - 64px);
+}
+
+/* Utility classes for pages */
+.page-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 768px) {
+  .page-container,
+  .section-container {
+    padding: 0 16px;
+  }
+}
+

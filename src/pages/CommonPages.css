@@ -1,0 +1,138 @@
+/* Common styles for FAQ, About, Contact pages */
+
+.about-page,
+.contact-page,
+.faq-page {
+  padding-bottom: 80px;
+}
+
+.about-hero,
+.contact-hero,
+.faq-hero {
+  background: linear-gradient(135deg, #0052a5 0%, #0066cc 100%);
+  padding: 80px 0;
+  color: #fff;
+}
+
+.about-hero h1,
+.contact-hero h1,
+.faq-hero h1 {
+  color: #fff !important;
+  font-size: 48px !important;
+  margin-bottom: 0 !important;
+}
+
+.hero-description {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 20px;
+}
+
+.faq-icon {
+  font-size: 64px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.about-story,
+.contact-section,
+.faq-section {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.story-card,
+.contact-info-card,
+.contact-form-card {
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.contact-icon {
+  font-size: 36px;
+  color: #0066cc;
+  margin-bottom: 16px;
+}
+
+.about-stats {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.about-timeline {
+  padding: 80px 0;
+  background: #fff;
+}
+
+.faq-collapse {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.faq-collapse .ant-collapse-header {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.faq-cta {
+  padding: 80px 0;
+  background: #f5f7fa;
+}
+
+.cta-card {
+  border-radius: 16px;
+  background: linear-gradient(135deg, #0052a5 0%, #0066cc 100%);
+  color: #fff;
+}
+
+.cta-card h3,
+.cta-card .ant-typography {
+  color: #fff !important;
+}
+
+.cta-card .ant-space-item .ant-typography {
+  color: #fff !important;
+}
+
+@media (max-width: 992px) {
+  .about-hero h1,
+  .contact-hero h1,
+  .faq-hero h1 {
+    font-size: 36px !important;
+  }
+
+  .hero-description {
+    font-size: 18px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-hero,
+  .contact-hero,
+  .faq-hero {
+    padding: 40px 0;
+  }
+
+  .about-hero h1,
+  .contact-hero h1,
+  .faq-hero h1 {
+    font-size: 28px !important;
+  }
+
+  .hero-description {
+    font-size: 16px !important;
+  }
+
+  .faq-icon {
+    font-size: 48px;
+  }
+
+  .about-story,
+  .contact-section,
+  .faq-section,
+  .about-stats,
+  .about-timeline,
+  .faq-cta {
+    padding: 40px 0;
+  }
+}
+

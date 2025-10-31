@@ -1,0 +1,67 @@
+.quote-comparison-page {
+  padding-bottom: 80px;
+}
+
+.comparison-hero {
+  background: linear-gradient(135deg, #0052a5 0%, #0066cc 100%);
+  padding: 60px 0;
+  color: #fff;
+}
+
+.comparison-hero h1 {
+  color: #fff !important;
+  font-size: 42px !important;
+  margin-bottom: 0 !important;
+}
+
+.hero-description {
+  color: rgba(255, 255, 255, 0.9) !important;
+  font-size: 18px;
+}
+
+.comparison-section {
+  padding: 80px 0;
+  background: #f5f7fa;
+}
+
+.comparison-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+.comparison-table {
+  margin-top: 24px;
+}
+
+.comparison-table .ant-table-thead > tr > th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.comparison-cta {
+  text-align: center;
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid #f0f0f0;
+}
+
+@media (max-width: 992px) {
+  .comparison-hero h1 {
+    font-size: 32px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .comparison-hero {
+    padding: 40px 0;
+  }
+
+  .comparison-hero h1 {
+    font-size: 28px !important;
+  }
+
+  .comparison-section {
+    padding: 40px 0;
+  }
+}
+

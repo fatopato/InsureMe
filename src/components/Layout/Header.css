@@ -1,0 +1,154 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: saturate(180%) blur(8px);
+  -webkit-backdrop-filter: saturate(180%) blur(8px);
+  border-bottom: 1px solid #f0f0f0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+  padding: 0;
+}
+
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 800;
+  margin-right: 32px;
+  transition: all 0.3s ease;
+}
+
+.logo:hover { transform: none; }
+
+.logo-icon {
+  font-size: 38px;
+  margin-right: 14px;
+  background: linear-gradient(135deg, #0066cc, #0052a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 2px 4px rgba(0, 102, 204, 0.2));
+}
+
+.logo-text {
+  background: linear-gradient(135deg, #0066cc, #0052a5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: -0.5px;
+}
+
+.desktop-menu {
+  flex: 1;
+  border-bottom: none;
+  line-height: 60px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+}
+
+.contact-phone {
+  color: #0066cc;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-link {
+  color: #0066cc;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.login-btn {
+  background: linear-gradient(135deg, #0066cc, #0052a5);
+  border: none;
+  height: 40px;
+  font-weight: 700;
+  padding: 0 16px;
+}
+
+.login-btn:hover {
+  filter: brightness(1.05);
+}
+
+.quote-btn {
+  background: linear-gradient(135deg, #0066cc, #0052a5);
+  border: none;
+  height: 38px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0, 102, 204, 0.2);
+}
+
+.quote-btn:hover {
+  transform: none;
+  box-shadow: 0 2px 8px rgba(0, 102, 204, 0.25);
+}
+
+.mobile-menu-btn {
+  display: none;
+  border: none;
+  font-size: 20px;
+}
+
+.drawer-footer {
+  margin-top: 32px;
+  padding-top: 32px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.drawer-contact {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 18px;
+  color: #0066cc;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .header-actions {
+    gap: 8px;
+  }
+
+  .contact-phone {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-container {
+    padding: 0 16px;
+  }
+
+  .logo {
+    font-size: 22px;
+    margin-right: 16px;
+  }
+
+  .logo-icon {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+}
+
